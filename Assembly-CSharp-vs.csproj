@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\CamAnd.cs" />
      <Compile Include="Assets\CameraMovement.cs" />
+     <Compile Include="Assets\ChangeScene.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
