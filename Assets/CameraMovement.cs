@@ -6,10 +6,10 @@ public class CameraMovement : MonoBehaviour {
 	
 	void Update () {
 		if (Input.GetMouseButton(0)) {  // If left mouse button down:
-			//float rotateAboutX = Input.GetAxis("Mouse Y") * Time.deltaTime * rotateSpeed;    // Mouse movement up/down.
-			//float rotateAboutY = -Input.GetAxis("Mouse X")  * Time.deltaTime * rotateSpeed;  // Mouse movement right/left.
-			float rotateAboutX = Input.acceleration.y * Time.deltaTime * rotateSpeed;    // Mouse movement up/down.
-			float rotateAboutY = -Input.acceleration.x  * Time.deltaTime * rotateSpeed;  // Mouse movement right/left.
+			float rotateAboutX = Input.GetAxis("Mouse Y") * Time.deltaTime * rotateSpeed;    // Mouse movement up/down.
+			float rotateAboutY = -Input.GetAxis("Mouse X")  * Time.deltaTime * rotateSpeed;  // Mouse movement right/left.
+			//float rotateAboutX = Input.acceleration.y * Time.deltaTime * rotateSpeed;    // Mouse movement up/down.
+			//float rotateAboutY = -Input.acceleration.x  * Time.deltaTime * rotateSpeed;  // Mouse movement right/left.
 
 			gameObject.transform.Rotate(rotateAboutX, rotateAboutY, 0.0f);   // Rotate the (camera) object around X and Y.
 			
