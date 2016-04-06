@@ -1,4 +1,5 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
+<<<<<<< HEAD
 Pipe name: \\.\pipe\UnityShaderCompiler-32bit-2-3120
 Cmd: getPlatforms
 Cmd: compileSnippet
@@ -105,6 +106,10 @@ Cmd: compileSnippet
   api=9 type=1 insize=600 outsize=7 kw=SHADOWS_DEPTH ok=1
 Cmd: compileSnippet
   api=9 type=1 insize=600 outsize=7 kw=SHADOWS_CUBE ok=1
+=======
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-2-5668
+Cmd: getPlatforms
+>>>>>>> 769feed9b9044743bf3a378388ad596d84739623
 Unhandled exception: Readfile from pipe failed. GLE=Канал был закрыт.
 
 

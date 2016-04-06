@@ -46,10 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Buttons\GameButtons.cs" />
+     <Compile Include="Assets\Buttons\GameQuit.cs" />
      <Compile Include="Assets\CamAnd.cs" />
      <Compile Include="Assets\CameraMovement.cs" />
      <Compile Include="Assets\ChangeScene.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\TouchMovement.cs" />
+=======
+     <Compile Include="Assets\Pinch.cs" />
+>>>>>>> 769feed9b9044743bf3a378388ad596d84739623
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

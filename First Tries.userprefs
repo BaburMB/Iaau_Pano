@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CameraMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Pinch.cs">
     <Files>
-      <File FileName="Assets\CameraMovement.cs" Line="4" Column="35" />
-      <File FileName="Assets\Editor\InvertedSphere.cs" Line="11" Column="2" />
-      <File FileName="Assets\ChangeScene.cs" Line="8" Column="33" />
+      <File FileName="Assets\CameraMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\ChangeScene.cs" Line="1" Column="1" />
+      <File FileName="Assets\Buttons\GameButtons.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pinch.cs" Line="126" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
