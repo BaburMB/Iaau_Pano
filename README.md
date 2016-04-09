@@ -29,3 +29,4 @@
 панорамные фотографии<br>
 инструменты: Google Camera (+Google Maps API), Adobe Photoshop<br>
 </ul>
+<a href="https://docs.google.com/document/d/1-714SZUlfUvhyqmVJef-QilN3WdgEeNUjcU7S09Z-RU/edit?usp=sharing">Полная документация и список задач></a>
