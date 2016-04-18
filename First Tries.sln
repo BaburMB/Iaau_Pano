@@ -5,6 +5,8 @@ Project("{BED745BF-75A8-EDA4-7D65-F22D4318B4E8}") = "First Tries", "Assembly-CSh
 EndProject
 Project("{BED745BF-75A8-EDA4-7D65-F22D4318B4E8}") = "First Tries", "Assembly-CSharp-Editor.csproj", "{3F859EE1-AADF-88AB-6458-6C1F962A933E}"
 EndProject
+Project("{BED745BF-75A8-EDA4-7D65-F22D4318B4E8}") = "First Tries", "Assembly-UnityScript.unityproj", "{28D81FA9-C729-0EBA-6755-35CC46710478}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{3F859EE1-AADF-88AB-6458-6C1F962A933E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F859EE1-AADF-88AB-6458-6C1F962A933E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F859EE1-AADF-88AB-6458-6C1F962A933E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D81FA9-C729-0EBA-6755-35CC46710478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D81FA9-C729-0EBA-6755-35CC46710478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D81FA9-C729-0EBA-6755-35CC46710478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D81FA9-C729-0EBA-6755-35CC46710478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																									GlobalSection(MonoDevelopProperties) = preSolution
+																																																GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
