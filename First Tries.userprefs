@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Buttons\GameQuit.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ChangeColor.cs">
     <Files>
-      <File FileName="Assets\Buttons\GameQuit.cs" Line="18" Column="1" />
-      <File FileName="Assets\pinchzoom.js" Line="1" Column="1" />
-      <File FileName="Assets\CameraMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Buttons\GameButtons.cs" Line="1" Column="1" />
+      <File FileName="Assets\Buttons\GameButtons.cs" Line="12" Column="18" />
+      <File FileName="Assets\Buttons\GameQuit.cs" Line="1" Column="1" />
+      <File FileName="Assets\pinchzoom.js" Line="45" Column="2" />
+      <File FileName="Assets\CameraMovement.cs" Line="5" Column="36" />
+      <File FileName="Assets\ChangeColor.cs" Line="32" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
