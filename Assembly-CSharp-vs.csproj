@@ -48,10 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Buttons\GameButtons.cs" />
      <Compile Include="Assets\Buttons\GameQuit.cs" />
-     <Compile Include="Assets\Scripts\CamAnd.cs" />
-     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\CameraGyroscope.cs" />
      <Compile Include="Assets\Scripts\ChangeScene.cs" />
-     <Compile Include="Assets\Scripts\ChangeViewMode.cs" />
      <Compile Include="Assets\Scripts\SwipeRotation.cs" />
      <Compile Include="Assets\Scripts\SwipeRotationOld.cs" />
      <Compile Include="Assets\Scripts\TouchLogic.cs" />

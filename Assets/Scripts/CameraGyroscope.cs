@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CamAnd : MonoBehaviour {
+public class CameraGyroscope : MonoBehaviour {
 	void Awake () {
 		// Check gyro works on this device:
 		if (!SystemInfo.supportsGyroscope) {
