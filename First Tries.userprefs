@@ -1,12 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ChangeColor.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ChangeViewMode.js">
     <Files>
-      <File FileName="Assets\Buttons\GameButtons.cs" Line="12" Column="18" />
-      <File FileName="Assets\Buttons\GameQuit.cs" Line="1" Column="1" />
-      <File FileName="Assets\pinchzoom.js" Line="45" Column="2" />
-      <File FileName="Assets\CameraMovement.cs" Line="5" Column="36" />
-      <File FileName="Assets\ChangeColor.cs" Line="32" Column="20" />
+      <File FileName="Assets\Scripts\CamAnd.cs" Line="10" Column="31" />
+      <File FileName="Assets\Scripts\ChangeViewMode.js" Line="4" Column="22" />
+      <File FileName="Assets\Scripts\ChangeViewMode.cs" Line="10" Column="3" />
+      <File FileName="Assets\Scripts\ChangeScene.cs" Line="5" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
