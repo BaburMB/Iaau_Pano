@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class GameButtons : MonoBehaviour {
-
+	public string gotoPlace = "HomeUI";
 	// Use this for initialization
 	void Start () {
 	
@@ -11,7 +11,7 @@ public class GameButtons : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Escape)) 
-			Application.LoadLevel ("HomeUI");
+			Application.LoadLevel (gotoPlace);
 	}
 
 }
