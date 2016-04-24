@@ -10,9 +10,12 @@ public class CameraGyroscope : MonoBehaviour {
 			    Application.platform != RuntimePlatform.Android) {
 				Debug.Log ("WARNING: Gyro only works on phone");
 			}
+			else{
+				Input.gyro.enabled = true; 
+			}   // Enable gyro.
 		}
 		
-		Input.gyro.enabled = true;    // Enable gyro.
+		
 	}
 	
 	void Update () {
@@ -23,9 +26,11 @@ public class CameraGyroscope : MonoBehaviour {
 		// have to carefully inspect the Euler angles, think about yaw pitch roll, change values
 		// and search the internet for a correct solution. Lots of the internet solutions failed
 		// for me and Quaterions are hard!
-		Quaternion transQuat = new Quaternion(Input.gyro.attitude.x, Input.gyro.attitude.y,
+		if (Input.gyro.enabled == true) {
+			Quaternion transQuat = new Quaternion (Input.gyro.attitude.x, Input.gyro.attitude.y,
 		                                      -Input.gyro.attitude.z, -Input.gyro.attitude.w);
-		gameObject.transform.rotation = Quaternion.Euler (90, 0, 0) * transQuat;
-		Debug.Log ("transQuat = " + transQuat.eulerAngles.ToString());
+			gameObject.transform.rotation = Quaternion.Euler (90, 0, 0) * transQuat;
+			Debug.Log ("transQuat = " + transQuat.eulerAngles.ToString ());
+		}
 	}
 }
