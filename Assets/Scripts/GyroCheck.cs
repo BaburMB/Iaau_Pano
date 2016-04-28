@@ -1,19 +1,26 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using System.Collections;
 
 public class GyroCheck : MonoBehaviour {
-
-	// Use this for initialization
+	// bool check = true;
+	private float a;
 	void Start () {
-		if (Input.gyro.enabled == false) {
-			gameObject.SetActive (true);
-		} else {
-			gameObject.SetActive (false);
-		}
+		Input.gyro.enabled = true;
+		//if (Input.gyro.enabled == false){
+		//	check = false;
+		//} 
+		a = Input.gyro.userAcceleration.x;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		a = Input.gyro.userAcceleration.x;
+		if (a == 0){
+			gameObject.SetActive(true);
+		}
+		else{
+			gameObject.SetActive(false);
+		}
 	}
 }

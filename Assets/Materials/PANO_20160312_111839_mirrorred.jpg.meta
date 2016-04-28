@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: 82118257595aaa5498fe19a605aa49cd
-timeCreated: 1457931744
+guid: f9a223d92c529ac498332b06801a7c0e
+timeCreated: 1461685076
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    8900000: generatedCubemap
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -21,7 +22,7 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
@@ -32,7 +33,7 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 1
   lightmap: 0
   rGBM: 0
@@ -45,12 +46,8 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 0
-  textureType: -1
-  buildTargetSettings:
-  - buildTarget: Android
-    maxTextureSize: 4096
-    textureFormat: -1
-    compressionQuality: 50
+  textureType: 3
+  buildTargetSettings: []
   spriteSheet:
     sprites: []
   spritePackingTag: 
