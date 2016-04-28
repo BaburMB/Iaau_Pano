@@ -1,16 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GyroCheck.cs">
-    <Files>
-      <File FileName="First Tries.sln" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\pinchzoom.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TouchLogic.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SwipeRotationOld.cs" Line="1" Column="1" />
-      <File FileName="Assets\Animation_flip.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CameraGyroscope.cs" Line="28" Column="37" />
-      <File FileName="Assets\Scripts\GyroCheck.cs" Line="8" Column="37" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
